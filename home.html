@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="overflow: hidden;">
+    
+    <header class="header" data-aos="fade-down">
+        <section class="flex">
+            <a href="" class="logo">Travia</a>
+
+            <nav class="navbar">
+                <a href="home.html">inicio</a>
+                <a href="about.html">sobre</a>
+                <a href="tours.html">lugares</a>
+                <a href="destination.html">destinos</a>
+                <a href="contact.html">contato</a>
+            </nav>
+
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </section>
+    </header>
+
+
+    <div class="container home" data-aos="zoom-out">
+        <section class="flex" data-aos="zoom-in" data-aos-delay="600">
+
+            <form action="" method="post">
+                <h3>pesquisar</h3>
+                <p>destino</p>
+                <input type="text" name="location " required maxlength="50" placeholder="coloque o destino" class="box">
+                <p>data de entrada</p>
+                <input type="date" name="date" class="box" required >
+                <p>data de saida</p>
+                <input type="date" name="date" class="box" required >
+                <p>pessoas</p>
+                <input type="number" name="guest" min="1" max="10" maxlength="2" class="box"  placeholder="número de pessoas" required >
+                <input type="submit" value="procurar viagem" name="search" class="btn"   required >
+            </form>
+           
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
